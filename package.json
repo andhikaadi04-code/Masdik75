@@ -1,0 +1,19 @@
+{
+  "name": "dyno-whatsapp-player-example",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@luanxdd/snowkit": "3.2.0",
+    "sharp": "^0.35.0"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.0"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json && node scripts-copy-assets.mjs"
+  }
+}
